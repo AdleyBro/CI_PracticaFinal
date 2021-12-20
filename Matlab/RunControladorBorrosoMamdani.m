@@ -29,8 +29,7 @@ sonar_7 = rossubscriber('/robot0/sonar_7', rostype.sensor_msgs_Range);
 %GENERACION DE MENSAJES
 msg_vel=rosmessage(pub_vel);
 
-
 % Ejecutar Simulacion
-sim('test_controler_generic.slx')
+sim('Controlador_Mamdani.slx')
 
-
+distancias = distanciasSonares;

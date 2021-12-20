@@ -2,7 +2,7 @@
 Name='controlador_3'
 Type='mamdani'
 Version=2.0
-NumInputs=4
+NumInputs=6
 NumOutputs=2
 NumRules=2
 AndMethod='min'
@@ -12,36 +12,52 @@ AggMethod='max'
 DefuzzMethod='centroid'
 
 [Input1]
-Name='S1'
-Range=[0 1]
+Name='S_Izq'
+Range=[0 5]
 NumMFs=3
-MF1='mf1':'trimf',[-0.416666666666667 0 0.416666666666667]
-MF2='mf2':'trimf',[0.0833333333333333 0.5 0.916666666666667]
-MF3='mf3':'trimf',[0.583333333333333 1 1.41666666666667]
+MF1='mf1':'trimf',[-2.083 0 2.083]
+MF2='mf2':'trimf',[0.4167 2.5 4.583]
+MF3='mf3':'trimf',[2.917 5 7.083]
 
 [Input2]
-Name='S2'
-Range=[0 1]
+Name='S_IzqM'
+Range=[0 5]
 NumMFs=3
-MF1='mf1':'trimf',[-0.416666666666667 0 0.416666666666667]
-MF2='mf2':'trimf',[0.0833333333333333 0.5 0.916666666666667]
-MF3='mf3':'trimf',[0.583333333333333 1 1.41666666666667]
+MF1='mf1':'trimf',[-2.083 0 2.083]
+MF2='mf2':'trimf',[0.4167 2.5 4.583]
+MF3='mf3':'trimf',[2.917 5 7.083]
 
 [Input3]
-Name='S3'
-Range=[0 1]
+Name='S_IzqC'
+Range=[0 5]
 NumMFs=3
-MF1='mf1':'trimf',[-0.416666666666667 0 0.416666666666667]
-MF2='mf2':'trimf',[0.0833333333333333 0.5 0.916666666666667]
-MF3='mf3':'trimf',[0.583333333333333 1 1.41666666666667]
+MF1='mf1':'trimf',[-2.083 0 2.083]
+MF2='mf2':'trimf',[0.4167 2.5 4.583]
+MF3='mf3':'trimf',[2.917 5 7.083]
 
 [Input4]
-Name='S4'
-Range=[0 1]
+Name='S_DerC'
+Range=[0 5]
 NumMFs=3
-MF1='mf1':'trimf',[-0.416666666666667 0 0.416666666666667]
-MF2='mf2':'trimf',[0.0833333333333333 0.5 0.916666666666667]
-MF3='mf3':'trimf',[0.583333333333333 1 1.41666666666667]
+MF1='mf1':'trimf',[-2.083 0 2.083]
+MF2='mf2':'trimf',[0.4167 2.5 4.583]
+MF3='mf3':'trimf',[2.917 5 7.083]
+
+[Input5]
+Name='S_DerM'
+Range=[0 5]
+NumMFs=3
+MF1='mf1':'trimf',[-2.083 0 2.083]
+MF2='mf2':'trimf',[0.4167 2.5 4.583]
+MF3='mf3':'trimf',[2.917 5 7.083]
+
+[Input6]
+Name='S_Der'
+Range=[0 5]
+NumMFs=3
+MF1='mf1':'trimf',[-2.083 0 2.083]
+MF2='mf2':'trimf',[0.4167 2.5 4.583]
+MF3='mf3':'trimf',[2.917 5 7.083]
 
 [Output1]
 Name='V'
@@ -63,5 +79,5 @@ MF4='MNEG':'trapmf',[-2.57 -1 -0.35 -0.2]
 MF5='MPOS':'trapmf',[0.2 0.35 1 2.57]
 
 [Rules]
-1 1 1 1, 1 1 (1) : 1
-1 1 1 1, 1 1 (1) : 2
+1 1 1 1 0 0, 1 1 (1) : 1
+1 1 1 1 0 0, 1 1 (1) : 2

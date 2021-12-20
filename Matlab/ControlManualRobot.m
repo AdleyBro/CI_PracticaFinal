@@ -13,7 +13,7 @@ ROS_MASTER_IP = '172.29.29.80'
 ROS_IP = '172.29.29.70'
 ROS_MASTER_URI = ['http://', ROS_MASTER_IP, ':11311'];
 
-rosinit(['http://',ROS_MASTER_IP,':11311'],'NodeHost',ROS_IP)
+rosinit(ROS_MASTER_URI,'NodeHost',ROS_IP)
 
 %DECLARACION DE PUBLISHERS
 %Velocidad
