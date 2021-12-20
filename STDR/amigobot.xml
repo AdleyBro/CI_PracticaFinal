@@ -37,7 +37,7 @@
             <sonar_specifications>
                 <cone_angle>0.261799</cone_angle>
                 <max_range>5</max_range>
-                <min_range>0.1</min_range>
+                <min_range>0</min_range>
                 <frequency>10</frequency>
                 <frame_id>sonar_0</frame_id>
                 <pose>
@@ -57,7 +57,7 @@
             <sonar_specifications>
                 <cone_angle>0.261799</cone_angle>
                 <max_range>5</max_range>
-                <min_range>0.1</min_range>
+                <min_range>0</min_range>
                 <frequency>10</frequency>
                 <frame_id>sonar_1</frame_id>
                 <pose>
@@ -77,7 +77,7 @@
             <sonar_specifications>
                 <cone_angle>0.261799</cone_angle>
                 <max_range>5</max_range>
-                <min_range>0.1</min_range>
+                <min_range>0</min_range>
                 <frequency>10</frequency>
                 <frame_id>sonar_2</frame_id>
                 <pose>
@@ -97,7 +97,7 @@
             <sonar_specifications>
                 <cone_angle>0.261799</cone_angle>
                 <max_range>5</max_range>
-                <min_range>0.1</min_range>
+                <min_range>0</min_range>
                 <frequency>10</frequency>
                 <frame_id>sonar_3</frame_id>
                 <pose>
@@ -117,7 +117,7 @@
             <sonar_specifications>
                 <cone_angle>0.261799</cone_angle>
                 <max_range>5</max_range>
-                <min_range>0.1</min_range>
+                <min_range>0</min_range>
                 <frequency>10</frequency>
                 <frame_id>sonar_4</frame_id>
                 <pose>
@@ -137,7 +137,7 @@
             <sonar_specifications>
                 <cone_angle>0.261799</cone_angle>
                 <max_range>5</max_range>
-                <min_range>0.1</min_range>
+                <min_range>0</min_range>
                 <frequency>10</frequency>
                 <frame_id>sonar_5</frame_id>
                 <pose>
@@ -157,7 +157,7 @@
             <sonar_specifications>
                 <cone_angle>0.261799</cone_angle>
                 <max_range>5</max_range>
-                <min_range>0.1</min_range>
+                <min_range>0</min_range>
                 <frequency>10</frequency>
                 <frame_id>sonar_6</frame_id>
                 <pose>
@@ -177,7 +177,7 @@
             <sonar_specifications>
                 <cone_angle>0.261799</cone_angle>
                 <max_range>5</max_range>
-                <min_range>0.1</min_range>
+                <min_range>0</min_range>
                 <frequency>10</frequency>
                 <frame_id>sonar_7</frame_id>
                 <pose>

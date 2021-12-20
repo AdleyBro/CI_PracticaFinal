@@ -1,0 +1,67 @@
+[System]
+Name='controlador_3'
+Type='mamdani'
+Version=2.0
+NumInputs=4
+NumOutputs=2
+NumRules=2
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='S1'
+Range=[0 1]
+NumMFs=3
+MF1='mf1':'trimf',[-0.416666666666667 0 0.416666666666667]
+MF2='mf2':'trimf',[0.0833333333333333 0.5 0.916666666666667]
+MF3='mf3':'trimf',[0.583333333333333 1 1.41666666666667]
+
+[Input2]
+Name='S2'
+Range=[0 1]
+NumMFs=3
+MF1='mf1':'trimf',[-0.416666666666667 0 0.416666666666667]
+MF2='mf2':'trimf',[0.0833333333333333 0.5 0.916666666666667]
+MF3='mf3':'trimf',[0.583333333333333 1 1.41666666666667]
+
+[Input3]
+Name='S3'
+Range=[0 1]
+NumMFs=3
+MF1='mf1':'trimf',[-0.416666666666667 0 0.416666666666667]
+MF2='mf2':'trimf',[0.0833333333333333 0.5 0.916666666666667]
+MF3='mf3':'trimf',[0.583333333333333 1 1.41666666666667]
+
+[Input4]
+Name='S4'
+Range=[0 1]
+NumMFs=3
+MF1='mf1':'trimf',[-0.416666666666667 0 0.416666666666667]
+MF2='mf2':'trimf',[0.0833333333333333 0.5 0.916666666666667]
+MF3='mf3':'trimf',[0.583333333333333 1 1.41666666666667]
+
+[Output1]
+Name='V'
+Range=[0 1]
+NumMFs=4
+MF1='PEQ':'trimf',[0.05 0.1 0.2]
+MF2='MED':'trimf',[0.1 0.4 0.7]
+MF3='GRD':'trapmf',[0.6 0.75 2.07 2.63]
+MF4='CERO':'trimf',[-1 0 0.1]
+
+[Output2]
+Name='W'
+Range=[-1 1]
+NumMFs=5
+MF1='NEG':'trapmf',[-0.3 -0.2 -0.1 0]
+MF2='CERO':'trimf',[-0.1 0 0.1]
+MF3='POS':'trapmf',[0 0.1 0.2 0.3]
+MF4='MNEG':'trapmf',[-2.57 -1 -0.35 -0.2]
+MF5='MPOS':'trapmf',[0.2 0.35 1 2.57]
+
+[Rules]
+1 1 1 1, 1 1 (1) : 1
+1 1 1 1, 1 1 (1) : 2
