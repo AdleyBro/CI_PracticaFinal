@@ -6,11 +6,11 @@ global vel_angular;
 global vel_lineal;
 global vel_angular_max;
 global vel_lineal_max;
-ROS_MASTER_IP = '172.29.29.80'
-ROS_IP = '172.29.29.70'
+ROS_MASTER_IP = '192.168.1.137'
+ROS_IP = '192.168.1.150'
 ROS_MASTER_URI = ['http://', ROS_MASTER_IP, ':11311'];
 
-rosinit(['http://',ROS_MASTER_IP,':11311'],'NodeHost',ROS_IP)
+rosinit(ROS_MASTER_IP,'NodeHost',ROS_IP)
 
 %DECLARACION DE PUBLISHERS
 %Velocidad
