@@ -47,9 +47,9 @@ MF3='GRD':'trapmf',[2.5 4 20.5 24.5]
 Name='S_DerM'
 Range=[0 5]
 NumMFs=3
-MF1='PEQ':'trapmf',[-4.5 -0.5 0.3 1]
-MF2='MED':'trimf',[0.7 2 3]
-MF3='GRD':'trapmf',[2.5 4 20.5 24.5]
+MF1='PEQ':'trapmf',[-4.5 -0.5 0.25 0.7]
+MF2='MED':'trimf',[0.5 1.2 2]
+MF3='GRD':'trapmf',[1.49783315276273 2.5 19.7 23.7]
 
 [Input6]
 Name='S_Der'
