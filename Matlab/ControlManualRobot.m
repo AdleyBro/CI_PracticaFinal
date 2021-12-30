@@ -9,8 +9,8 @@ global incLineal;
 global vel_angular_max;
 global vel_lineal_max;
 global stop
-ROS_MASTER_IP = '172.29.29.80'
-ROS_IP = '172.29.29.70'
+ROS_MASTER_IP = '192.168.1.137'
+ROS_IP = '192.168.1.150'
 ROS_MASTER_URI = ['http://', ROS_MASTER_IP, ':11311'];
 
 rosinit(ROS_MASTER_URI,'NodeHost',ROS_IP)
