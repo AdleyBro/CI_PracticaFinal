@@ -1,5 +1,5 @@
 [System]
-Name='ControladorMamdani'
+Name='ControladorMamdani_Bueno_ConVmax'
 Type='mamdani'
 Version=2.0
 NumInputs=6
