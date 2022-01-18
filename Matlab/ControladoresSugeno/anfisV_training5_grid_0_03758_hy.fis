@@ -1,0 +1,1525 @@
+[System]
+Name='anfisV_training5_grid_0_03758_hy'
+Type='sugeno'
+Version=2.0
+NumInputs=6
+NumOutputs=1
+NumRules=729
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='input1'
+Range=[0.199999988079071 1.32999992370605]
+NumMFs=3
+MF1='in1mf1':'trimf',[-0.364999979856664 0.200984966690176 0.769797344415581]
+MF2='in1mf2':'trimf',[0.199250990655122 0.765221047387148 1.33006403737171]
+MF3='in1mf3':'trimf',[0.783740545110497 1.32922823576219 1.89499989151965]
+
+[Input2]
+Name='input2'
+Range=[0.299999982118607 1.92999994754791]
+NumMFs=3
+MF1='in2mf1':'trimf',[-0.515000000599119 0.300631571526007 1.1120946448454]
+MF2='in2mf2':'trimf',[0.299710555816748 1.11548447514734 1.93001936554682]
+MF3='in2mf3':'trimf',[1.1131377272286 1.92985381139594 2.74499993026258]
+
+[Input3]
+Name='input3'
+Range=[0.610000014305115 4.25]
+NumMFs=3
+MF1='in3mf1':'trimf',[-1.20999997854233 0.610117770928354 2.42982040662541]
+MF2='in3mf2':'trimf',[0.610092067164033 2.43010318527329 4.25000252047711]
+MF3='in3mf3':'trimf',[2.42998508940689 4.24998542707409 6.06999999284744]
+
+[Input4]
+Name='input4'
+Range=[0.699999988079071 5]
+NumMFs=3
+MF1='in4mf1':'trimf',[-1.45000001788139 0.700067490036823 2.8506947550956]
+MF2='in4mf2':'trimf',[0.699971074028626 2.85040357134009 4.99922611371393]
+MF3='in4mf3':'trimf',[2.85081010232642 5.00033605838699 7.15000000596046]
+
+[Input5]
+Name='input5'
+Range=[0.319999992847443 2.86999988555908]
+NumMFs=3
+MF1='in5mf1':'trimf',[-0.954999953508377 0.320096896816459 1.59442448773579]
+MF2='in5mf2':'trimf',[0.320010601444783 1.59500514951824 2.87001117978452]
+MF3='in5mf3':'trimf',[1.5943051139751 2.86990821460743 4.1449998319149]
+
+[Input6]
+Name='input6'
+Range=[0.229999989271164 1.45999991893768]
+NumMFs=3
+MF1='in6mf1':'trimf',[-0.384999975562981 0.23050332965957 0.847053354199726]
+MF2='in6mf2':'trimf',[0.229753283942847 0.845193278035023 1.45988030656684]
+MF3='in6mf3':'trimf',[0.846124154069541 1.4596895235403 2.07499988377094]
+
+[Output1]
+Name='output'
+Range=[0 1]
+NumMFs=729
+MF1='out1mf1':'constant',[-14.8503371863584]
+MF2='out1mf2':'constant',[26.4556847036225]
+MF3='out1mf3':'constant',[10.9786610477135]
+MF4='out1mf4':'constant',[-4.43229671612178]
+MF5='out1mf5':'constant',[9.31495993151628]
+MF6='out1mf6':'constant',[-3.49868719413613]
+MF7='out1mf7':'constant',[24.8893279039401]
+MF8='out1mf8':'constant',[-2.37344335847273]
+MF9='out1mf9':'constant',[-1.76946373490734]
+MF10='out1mf10':'constant',[4.07307092252851]
+MF11='out1mf11':'constant',[3.33322324881966]
+MF12='out1mf12':'constant',[-2.56858463071136]
+MF13='out1mf13':'constant',[1.24681708859452]
+MF14='out1mf14':'constant',[0.219469928760825]
+MF15='out1mf15':'constant',[1.11567599997099]
+MF16='out1mf16':'constant',[3.55393748989399]
+MF17='out1mf17':'constant',[2.75142885809606]
+MF18='out1mf18':'constant',[-3.40779986829855]
+MF19='out1mf19':'constant',[8.221390766595]
+MF20='out1mf20':'constant',[-9.83584199307717]
+MF21='out1mf21':'constant',[3.05114448912537]
+MF22='out1mf22':'constant',[-18.9958364861754]
+MF23='out1mf23':'constant',[24.2582237590458]
+MF24='out1mf24':'constant',[0.693561470797564]
+MF25='out1mf25':'constant',[37.1782742539564]
+MF26='out1mf26':'constant',[-29.8056806728266]
+MF27='out1mf27':'constant',[-6.55548212175078]
+MF28='out1mf28':'constant',[-3.7727632580694]
+MF29='out1mf29':'constant',[5.78324135234188]
+MF30='out1mf30':'constant',[22.432135389334]
+MF31='out1mf31':'constant',[8.02330254317548]
+MF32='out1mf32':'constant',[7.64087037232392]
+MF33='out1mf33':'constant',[-3.62439136846546]
+MF34='out1mf34':'constant',[-3.96082463373416]
+MF35='out1mf35':'constant',[-1.81606916399399]
+MF36='out1mf36':'constant',[-0.974143108804782]
+MF37='out1mf37':'constant',[7.86071012808575]
+MF38='out1mf38':'constant',[-2.95754201425607]
+MF39='out1mf39':'constant',[-37.0496054113888]
+MF40='out1mf40':'constant',[-14.4970771252704]
+MF41='out1mf41':'constant',[3.3155110364912]
+MF42='out1mf42':'constant',[9.92828297373697]
+MF43='out1mf43':'constant',[-3.84549395888204]
+MF44='out1mf44':'constant',[4.78603707843991]
+MF45='out1mf45':'constant',[5.89141428372705]
+MF46='out1mf46':'constant',[-12.1290018654196]
+MF47='out1mf47':'constant',[17.9072106458762]
+MF48='out1mf48':'constant',[-14.9649895924248]
+MF49='out1mf49':'constant',[33.1497135489904]
+MF50='out1mf50':'constant',[-34.4339666074399]
+MF51='out1mf51':'constant',[-7.84641039834465]
+MF52='out1mf52':'constant',[20.6902135890459]
+MF53='out1mf53':'constant',[-21.1460180149312]
+MF54='out1mf54':'constant',[78.4182734260406]
+MF55='out1mf55':'constant',[6.39940433043731]
+MF56='out1mf56':'constant',[-1.58909033326369]
+MF57='out1mf57':'constant',[0.43781045641119]
+MF58='out1mf58':'constant',[-9.38410459281567]
+MF59='out1mf59':'constant',[-5.51268813328211]
+MF60='out1mf60':'constant',[0.993467952570111]
+MF61='out1mf61':'constant',[0]
+MF62='out1mf62':'constant',[0]
+MF63='out1mf63':'constant',[0]
+MF64='out1mf64':'constant',[-9.6135939704425]
+MF65='out1mf65':'constant',[6.9700366662449]
+MF66='out1mf66':'constant',[1.38511296385004]
+MF67='out1mf67':'constant',[-3.0149915430124]
+MF68='out1mf68':'constant',[2.8090811650583]
+MF69='out1mf69':'constant',[3.18385912352172]
+MF70='out1mf70':'constant',[0]
+MF71='out1mf71':'constant',[0]
+MF72='out1mf72':'constant',[0]
+MF73='out1mf73':'constant',[3.76847544875852]
+MF74='out1mf74':'constant',[2.24579876716613]
+MF75='out1mf75':'constant',[0]
+MF76='out1mf76':'constant',[1.42600754549247]
+MF77='out1mf77':'constant',[0.849820048234328]
+MF78='out1mf78':'constant',[0]
+MF79='out1mf79':'constant',[0]
+MF80='out1mf80':'constant',[0]
+MF81='out1mf81':'constant',[0]
+MF82='out1mf82':'constant',[5.58996287393099]
+MF83='out1mf83':'constant',[-12.3333496709667]
+MF84='out1mf84':'constant',[-11.5359345511722]
+MF85='out1mf85':'constant',[20.5627740612802]
+MF86='out1mf86':'constant',[-1.96996681363228]
+MF87='out1mf87':'constant',[-11.5576998901909]
+MF88='out1mf88':'constant',[-0.437982379879466]
+MF89='out1mf89':'constant',[-1.43509460093906]
+MF90='out1mf90':'constant',[-2.12087125594851]
+MF91='out1mf91':'constant',[2.58189129275675]
+MF92='out1mf92':'constant',[-13.3776660471014]
+MF93='out1mf93':'constant',[37.3252283233546]
+MF94='out1mf94':'constant',[9.43707136325603]
+MF95='out1mf95':'constant',[0.878328239755776]
+MF96='out1mf96':'constant',[-11.1228453261382]
+MF97='out1mf97':'constant',[-24.8551409234432]
+MF98='out1mf98':'constant',[1.46697666228076]
+MF99='out1mf99':'constant',[11.5956425893845]
+MF100='out1mf100':'constant',[14.8877380737482]
+MF101='out1mf101':'constant',[-8.48660387546467]
+MF102='out1mf102':'constant',[-0.347984383101662]
+MF103='out1mf103':'constant',[2.02623365235751]
+MF104='out1mf104':'constant',[-12.428264402892]
+MF105='out1mf105':'constant',[16.6585014699607]
+MF106='out1mf106':'constant',[40.1754290868662]
+MF107='out1mf107':'constant',[-3.48128096420868]
+MF108='out1mf108':'constant',[-62.7704582628694]
+MF109='out1mf109':'constant',[4.05946394812837]
+MF110='out1mf110':'constant',[-22.3021805671821]
+MF111='out1mf111':'constant',[-8.25870601488204]
+MF112='out1mf112':'constant',[3.8104523785746]
+MF113='out1mf113':'constant',[31.0545891073563]
+MF114='out1mf114':'constant',[-1.00660536164818]
+MF115='out1mf115':'constant',[-3.51208726582234]
+MF116='out1mf116':'constant',[-2.93607024047252]
+MF117='out1mf117':'constant',[-1.86671013966712]
+MF118='out1mf118':'constant',[-2.51673900480327]
+MF119='out1mf119':'constant',[3.78354939787754]
+MF120='out1mf120':'constant',[-13.4183046316726]
+MF121='out1mf121':'constant',[17.3956851155196]
+MF122='out1mf122':'constant',[-5.79452250361972]
+MF123='out1mf123':'constant',[9.00470600203855]
+MF124='out1mf124':'constant',[11.1562152342561]
+MF125='out1mf125':'constant',[25.8290351898183]
+MF126='out1mf126':'constant',[-6.91790085819875]
+MF127='out1mf127':'constant',[-22.5715879480864]
+MF128='out1mf128':'constant',[24.665453522871]
+MF129='out1mf129':'constant',[13.5640941470206]
+MF130='out1mf130':'constant',[-10.5893452138083]
+MF131='out1mf131':'constant',[29.5945377764569]
+MF132='out1mf132':'constant',[-4.88519394895676]
+MF133='out1mf133':'constant',[0.500357949880732]
+MF134='out1mf134':'constant',[-24.7425216089207]
+MF135='out1mf135':'constant',[-50.1967582031638]
+MF136='out1mf136':'constant',[10.1823050512379]
+MF137='out1mf137':'constant',[-2.96711679177632]
+MF138='out1mf138':'constant',[5.50074033651874]
+MF139='out1mf139':'constant',[7.83001743148295]
+MF140='out1mf140':'constant',[-6.80812003385931]
+MF141='out1mf141':'constant',[14.3042967222015]
+MF142='out1mf142':'constant',[0]
+MF143='out1mf143':'constant',[0]
+MF144='out1mf144':'constant',[0]
+MF145='out1mf145':'constant',[11.3346553900452]
+MF146='out1mf146':'constant',[-2.91402825667232]
+MF147='out1mf147':'constant',[-0.486420040903043]
+MF148='out1mf148':'constant',[1.15237520691502]
+MF149='out1mf149':'constant',[-0.91769971123723]
+MF150='out1mf150':'constant',[-24.4516651051831]
+MF151='out1mf151':'constant',[0]
+MF152='out1mf152':'constant',[0]
+MF153='out1mf153':'constant',[0]
+MF154='out1mf154':'constant',[2.78446936201378]
+MF155='out1mf155':'constant',[9.41456061921627]
+MF156='out1mf156':'constant',[0]
+MF157='out1mf157':'constant',[5.32515912117446]
+MF158='out1mf158':'constant',[5.83168683505934]
+MF159='out1mf159':'constant',[0]
+MF160='out1mf160':'constant',[0]
+MF161='out1mf161':'constant',[0]
+MF162='out1mf162':'constant',[0]
+MF163='out1mf163':'constant',[0]
+MF164='out1mf164':'constant',[0]
+MF165='out1mf165':'constant',[0]
+MF166='out1mf166':'constant',[0]
+MF167='out1mf167':'constant',[0]
+MF168='out1mf168':'constant',[0]
+MF169='out1mf169':'constant',[0]
+MF170='out1mf170':'constant',[0]
+MF171='out1mf171':'constant',[0]
+MF172='out1mf172':'constant',[-4.94376134954931]
+MF173='out1mf173':'constant',[-12.7427883611606]
+MF174='out1mf174':'constant',[0]
+MF175='out1mf175':'constant',[-7.52357870248866]
+MF176='out1mf176':'constant',[-11.6007020231855]
+MF177='out1mf177':'constant',[0]
+MF178='out1mf178':'constant',[0]
+MF179='out1mf179':'constant',[0]
+MF180='out1mf180':'constant',[0]
+MF181='out1mf181':'constant',[35.6973828397447]
+MF182='out1mf182':'constant',[-21.4548199785999]
+MF183='out1mf183':'constant',[0]
+MF184='out1mf184':'constant',[-9.15452250864458]
+MF185='out1mf185':'constant',[-39.6170292709888]
+MF186='out1mf186':'constant',[0]
+MF187='out1mf187':'constant',[0]
+MF188='out1mf188':'constant',[0]
+MF189='out1mf189':'constant',[0]
+MF190='out1mf190':'constant',[-2.13436266108656]
+MF191='out1mf191':'constant',[1.8635304137365]
+MF192='out1mf192':'constant',[5.69744188076355]
+MF193='out1mf193':'constant',[6.44341075249675]
+MF194='out1mf194':'constant',[15.0394335766239]
+MF195='out1mf195':'constant',[9.83218129839606]
+MF196='out1mf196':'constant',[0]
+MF197='out1mf197':'constant',[0]
+MF198='out1mf198':'constant',[0]
+MF199='out1mf199':'constant',[6.95234496802098]
+MF200='out1mf200':'constant',[10.290721163045]
+MF201='out1mf201':'constant',[6.54872225151008]
+MF202='out1mf202':'constant',[-28.5586313059148]
+MF203='out1mf203':'constant',[-10.4291199180267]
+MF204='out1mf204':'constant',[10.4180440744414]
+MF205='out1mf205':'constant',[0]
+MF206='out1mf206':'constant',[0]
+MF207='out1mf207':'constant',[0]
+MF208='out1mf208':'constant',[11.7094043912504]
+MF209='out1mf209':'constant',[-1.21543413671709]
+MF210='out1mf210':'constant',[0]
+MF211='out1mf211':'constant',[31.3498441383189]
+MF212='out1mf212':'constant',[-58.6597117462581]
+MF213='out1mf213':'constant',[0]
+MF214='out1mf214':'constant',[0]
+MF215='out1mf215':'constant',[0]
+MF216='out1mf216':'constant',[0]
+MF217='out1mf217':'constant',[4.16198288836662]
+MF218='out1mf218':'constant',[-1.04088881687489]
+MF219='out1mf219':'constant',[-1.06933514195063]
+MF220='out1mf220':'constant',[-1.45452449682645]
+MF221='out1mf221':'constant',[5.54612288727376]
+MF222='out1mf222':'constant',[-1.66612300896297]
+MF223='out1mf223':'constant',[0]
+MF224='out1mf224':'constant',[0]
+MF225='out1mf225':'constant',[0]
+MF226='out1mf226':'constant',[-8.91674686414292]
+MF227='out1mf227':'constant',[-1.93690242557766]
+MF228='out1mf228':'constant',[-1.25410768869018]
+MF229='out1mf229':'constant',[1.3988102435655]
+MF230='out1mf230':'constant',[-9.14183065316682]
+MF231='out1mf231':'constant',[-1.83083981965308]
+MF232='out1mf232':'constant',[0]
+MF233='out1mf233':'constant',[0]
+MF234='out1mf234':'constant',[0]
+MF235='out1mf235':'constant',[-16.607302016868]
+MF236='out1mf236':'constant',[0.0411673690870902]
+MF237='out1mf237':'constant',[0]
+MF238='out1mf238':'constant',[-0.802290280668326]
+MF239='out1mf239':'constant',[2.80271451495782]
+MF240='out1mf240':'constant',[0]
+MF241='out1mf241':'constant',[0]
+MF242='out1mf242':'constant',[0]
+MF243='out1mf243':'constant',[0]
+MF244='out1mf244':'constant',[11.6514800744232]
+MF245='out1mf245':'constant',[-0.507112186475011]
+MF246='out1mf246':'constant',[-38.6623214434227]
+MF247='out1mf247':'constant',[-30.1269914421202]
+MF248='out1mf248':'constant',[19.2594821944955]
+MF249='out1mf249':'constant',[-2.10543366878253]
+MF250='out1mf250':'constant',[-15.7805588196087]
+MF251='out1mf251':'constant',[12.4306734876717]
+MF252='out1mf252':'constant',[2.06162957972729]
+MF253='out1mf253':'constant',[-4.89635979931713]
+MF254='out1mf254':'constant',[2.96316024047488]
+MF255='out1mf255':'constant',[7.32666037747311]
+MF256='out1mf256':'constant',[-1.80211141426447]
+MF257='out1mf257':'constant',[-3.8427078179119]
+MF258='out1mf258':'constant',[6.1825521674406]
+MF259='out1mf259':'constant',[0.495894520232413]
+MF260='out1mf260':'constant',[-3.99457433791565]
+MF261='out1mf261':'constant',[5.90346077266123]
+MF262='out1mf262':'constant',[-12.6710023931697]
+MF263='out1mf263':'constant',[19.5825808846001]
+MF264='out1mf264':'constant',[8.76038053409832]
+MF265='out1mf265':'constant',[15.072972328055]
+MF266='out1mf266':'constant',[-3.18054576797071]
+MF267='out1mf267':'constant',[-19.9481190165744]
+MF268='out1mf268':'constant',[-54.5876252434604]
+MF269='out1mf269':'constant',[14.2332975569874]
+MF270='out1mf270':'constant',[60.9441382048996]
+MF271='out1mf271':'constant',[3.3398921303288]
+MF272='out1mf272':'constant',[2.66353854988335]
+MF273='out1mf273':'constant',[13.4796045546842]
+MF274='out1mf274':'constant',[-2.19771269438546]
+MF275='out1mf275':'constant',[-27.1720349322848]
+MF276='out1mf276':'constant',[14.045511430305]
+MF277='out1mf277':'constant',[-10.3209947176217]
+MF278='out1mf278':'constant',[-1.94014037629028]
+MF279='out1mf279':'constant',[-1.93186328321557]
+MF280='out1mf280':'constant',[-1.8000324443272]
+MF281='out1mf281':'constant',[2.14207802574639]
+MF282='out1mf282':'constant',[0.228602898203648]
+MF283='out1mf283':'constant',[2.90691077331628]
+MF284='out1mf284':'constant',[13.5049669828683]
+MF285='out1mf285':'constant',[-10.3722476013922]
+MF286='out1mf286':'constant',[11.5861752069761]
+MF287='out1mf287':'constant',[16.7130196166204]
+MF288='out1mf288':'constant',[-19.4831947169014]
+MF289='out1mf289':'constant',[25.3158939655471]
+MF290='out1mf290':'constant',[-30.1423909898732]
+MF291='out1mf291':'constant',[24.9123127903048]
+MF292='out1mf292':'constant',[-14.5688363987442]
+MF293='out1mf293':'constant',[0.911035514081835]
+MF294='out1mf294':'constant',[35.4654941820158]
+MF295='out1mf295':'constant',[-6.94293897427856]
+MF296='out1mf296':'constant',[-22.4800747604697]
+MF297='out1mf297':'constant',[-2.99105724509408]
+MF298='out1mf298':'constant',[-5.19430825041023]
+MF299='out1mf299':'constant',[6.32498635557901]
+MF300='out1mf300':'constant',[1.66253919872039]
+MF301='out1mf301':'constant',[9.18462472337444]
+MF302='out1mf302':'constant',[1.67973078696651]
+MF303='out1mf303':'constant',[3.95938659794076]
+MF304='out1mf304':'constant',[0]
+MF305='out1mf305':'constant',[0]
+MF306='out1mf306':'constant',[0]
+MF307='out1mf307':'constant',[10.1143088354247]
+MF308='out1mf308':'constant',[7.862157340649]
+MF309='out1mf309':'constant',[5.0965788523849]
+MF310='out1mf310':'constant',[5.29330584752237]
+MF311='out1mf311':'constant',[-4.86163021581189]
+MF312='out1mf312':'constant',[12.1185455577322]
+MF313='out1mf313':'constant',[0]
+MF314='out1mf314':'constant',[0]
+MF315='out1mf315':'constant',[0]
+MF316='out1mf316':'constant',[0.624398797376822]
+MF317='out1mf317':'constant',[0.372106457488116]
+MF318='out1mf318':'constant',[0]
+MF319='out1mf319':'constant',[0.236275228155947]
+MF320='out1mf320':'constant',[0.140806706404073]
+MF321='out1mf321':'constant',[0]
+MF322='out1mf322':'constant',[0]
+MF323='out1mf323':'constant',[0]
+MF324='out1mf324':'constant',[0]
+MF325='out1mf325':'constant',[5.22795424506027]
+MF326='out1mf326':'constant',[-5.63712309519969]
+MF327='out1mf327':'constant',[45.0618147389987]
+MF328='out1mf328':'constant',[-12.4412251600094]
+MF329='out1mf329':'constant',[-0.346577399196031]
+MF330='out1mf330':'constant',[-0.159725712535428]
+MF331='out1mf331':'constant',[-25.3042538801298]
+MF332='out1mf332':'constant',[3.69823683363961]
+MF333='out1mf333':'constant',[-1.64910731734171]
+MF334='out1mf334':'constant',[4.39233554029565]
+MF335='out1mf335':'constant',[9.18969205739248]
+MF336='out1mf336':'constant',[-21.8638619535407]
+MF337='out1mf337':'constant',[4.04403836858787]
+MF338='out1mf338':'constant',[-0.36293570863596]
+MF339='out1mf339':'constant',[7.85862353426862]
+MF340='out1mf340':'constant',[26.4789439384847]
+MF341='out1mf341':'constant',[5.45840904817982]
+MF342='out1mf342':'constant',[-8.77035918126093]
+MF343='out1mf343':'constant',[1.11961873335706]
+MF344='out1mf344':'constant',[-10.7336140200833]
+MF345='out1mf345':'constant',[-29.3010447184719]
+MF346='out1mf346':'constant',[-2.438283434137]
+MF347='out1mf347':'constant',[8.18290909215954]
+MF348='out1mf348':'constant',[6.00062130084939]
+MF349='out1mf349':'constant',[5.75564237029801]
+MF350='out1mf350':'constant',[2.27720818943982]
+MF351='out1mf351':'constant',[-4.232251816657]
+MF352='out1mf352':'constant',[-1.44883168334445]
+MF353='out1mf353':'constant',[5.58120778494716]
+MF354='out1mf354':'constant',[-21.5013498209999]
+MF355='out1mf355':'constant',[19.7807609176423]
+MF356='out1mf356':'constant',[3.3394647221828]
+MF357='out1mf357':'constant',[-7.85683692234172]
+MF358='out1mf358':'constant',[-7.48920068112098]
+MF359='out1mf359':'constant',[-10.5068828416882]
+MF360='out1mf360':'constant',[-6.7282950171608]
+MF361='out1mf361':'constant',[-0.632004381285405]
+MF362='out1mf362':'constant',[-2.6742077996779]
+MF363='out1mf363':'constant',[24.7243794581424]
+MF364='out1mf364':'constant',[-10.9995097022637]
+MF365='out1mf365':'constant',[0.71988912437932]
+MF366='out1mf366':'constant',[-3.03362108846341]
+MF367='out1mf367':'constant',[13.0233527466055]
+MF368='out1mf368':'constant',[-6.16680980167579]
+MF369='out1mf369':'constant',[1.98033328251934]
+MF370='out1mf370':'constant',[-0.21966481139643]
+MF371='out1mf371':'constant',[15.8106292886952]
+MF372='out1mf372':'constant',[27.9134201917108]
+MF373='out1mf373':'constant',[5.84940257998261]
+MF374='out1mf374':'constant',[-5.7971522565516]
+MF375='out1mf375':'constant',[-18.0964431448526]
+MF376='out1mf376':'constant',[-19.0111148886606]
+MF377='out1mf377':'constant',[-8.75329181627966]
+MF378='out1mf378':'constant',[-2.39821691494418]
+MF379='out1mf379':'constant',[-2.51293854577861]
+MF380='out1mf380':'constant',[-11.7960366574056]
+MF381='out1mf381':'constant',[-1.61209098272643]
+MF382='out1mf382':'constant',[0.644359775035782]
+MF383='out1mf383':'constant',[8.3359716213753]
+MF384='out1mf384':'constant',[3.87510730894644]
+MF385='out1mf385':'constant',[0]
+MF386='out1mf386':'constant',[0]
+MF387='out1mf387':'constant',[0]
+MF388='out1mf388':'constant',[1.87423467134353]
+MF389='out1mf389':'constant',[10.453576869606]
+MF390='out1mf390':'constant',[-1.26171507962604]
+MF391='out1mf391':'constant',[-6.70822625945072]
+MF392='out1mf392':'constant',[-8.4624144274974]
+MF393='out1mf393':'constant',[21.3266663782901]
+MF394='out1mf394':'constant',[0]
+MF395='out1mf395':'constant',[0]
+MF396='out1mf396':'constant',[0]
+MF397='out1mf397':'constant',[-3.37968046452008]
+MF398='out1mf398':'constant',[12.6752000331494]
+MF399='out1mf399':'constant',[0]
+MF400='out1mf400':'constant',[4.65661512497055]
+MF401='out1mf401':'constant',[9.79563888625052]
+MF402='out1mf402':'constant',[0]
+MF403='out1mf403':'constant',[0]
+MF404='out1mf404':'constant',[0]
+MF405='out1mf405':'constant',[0]
+MF406='out1mf406':'constant',[5.70839949960342]
+MF407='out1mf407':'constant',[-3.31671814832416]
+MF408='out1mf408':'constant',[0]
+MF409='out1mf409':'constant',[17.005369254909]
+MF410='out1mf410':'constant',[5.29238807308318]
+MF411='out1mf411':'constant',[0]
+MF412='out1mf412':'constant',[0]
+MF413='out1mf413':'constant',[0]
+MF414='out1mf414':'constant',[0]
+MF415='out1mf415':'constant',[-12.660797401169]
+MF416='out1mf416':'constant',[5.19188862337609]
+MF417='out1mf417':'constant',[-16.9243649508338]
+MF418='out1mf418':'constant',[-3.60886244947622]
+MF419='out1mf419':'constant',[-4.05424269846876]
+MF420='out1mf420':'constant',[-34.4526107526237]
+MF421='out1mf421':'constant',[0]
+MF422='out1mf422':'constant',[0]
+MF423='out1mf423':'constant',[0]
+MF424='out1mf424':'constant',[-0.355253290588589]
+MF425='out1mf425':'constant',[-25.2031713530419]
+MF426='out1mf426':'constant',[-17.5419277049667]
+MF427='out1mf427':'constant',[25.5638288943395]
+MF428='out1mf428':'constant',[8.32048393008962]
+MF429='out1mf429':'constant',[-24.3872337662713]
+MF430='out1mf430':'constant',[0]
+MF431='out1mf431':'constant',[0]
+MF432='out1mf432':'constant',[0]
+MF433='out1mf433':'constant',[7.56328290090089]
+MF434='out1mf434':'constant',[6.6614553881562]
+MF435='out1mf435':'constant',[3.17952206032588]
+MF436='out1mf436':'constant',[-39.6809024091131]
+MF437='out1mf437':'constant',[-9.22666323315835]
+MF438='out1mf438':'constant',[30.6561441075184]
+MF439='out1mf439':'constant',[0]
+MF440='out1mf440':'constant',[0]
+MF441='out1mf441':'constant',[0]
+MF442='out1mf442':'constant',[-7.04620247101897]
+MF443='out1mf443':'constant',[-9.84165125435077]
+MF444='out1mf444':'constant',[-22.5653943406561]
+MF445='out1mf445':'constant',[50.7332251094308]
+MF446='out1mf446':'constant',[13.8572572973671]
+MF447='out1mf447':'constant',[-11.3814760603783]
+MF448='out1mf448':'constant',[0]
+MF449='out1mf449':'constant',[0]
+MF450='out1mf450':'constant',[0]
+MF451='out1mf451':'constant',[9.92180206235516]
+MF452='out1mf452':'constant',[-6.87613023058186]
+MF453='out1mf453':'constant',[-16.6794843357183]
+MF454='out1mf454':'constant',[-28.6328692741632]
+MF455='out1mf455':'constant',[-1.17195261953007]
+MF456='out1mf456':'constant',[11.6230699675542]
+MF457='out1mf457':'constant',[0]
+MF458='out1mf458':'constant',[0]
+MF459='out1mf459':'constant',[0]
+MF460='out1mf460':'constant',[-4.26370034840586]
+MF461='out1mf461':'constant',[-2.90007326716088]
+MF462='out1mf462':'constant',[16.8214201135204]
+MF463='out1mf463':'constant',[15.7943886327665]
+MF464='out1mf464':'constant',[4.8089514315407]
+MF465='out1mf465':'constant',[2.42499042505767]
+MF466='out1mf466':'constant',[0]
+MF467='out1mf467':'constant',[0]
+MF468='out1mf468':'constant',[0]
+MF469='out1mf469':'constant',[19.1216041453024]
+MF470='out1mf470':'constant',[12.4842678388941]
+MF471='out1mf471':'constant',[-0.313212064959871]
+MF472='out1mf472':'constant',[-25.3905492116947]
+MF473='out1mf473':'constant',[-5.18111767118719]
+MF474='out1mf474':'constant',[-16.9683649390828]
+MF475='out1mf475':'constant',[0]
+MF476='out1mf476':'constant',[0]
+MF477='out1mf477':'constant',[0]
+MF478='out1mf478':'constant',[-22.9893740455465]
+MF479='out1mf479':'constant',[1.62042378953722]
+MF480='out1mf480':'constant',[0]
+MF481='out1mf481':'constant',[-1.87123324557828]
+MF482='out1mf482':'constant',[5.58939801803224]
+MF483='out1mf483':'constant',[0]
+MF484='out1mf484':'constant',[0]
+MF485='out1mf485':'constant',[0]
+MF486='out1mf486':'constant',[0]
+MF487='out1mf487':'constant',[3.11201861866258]
+MF488='out1mf488':'constant',[-3.50875227311436]
+MF489='out1mf489':'constant',[0.538993194324012]
+MF490='out1mf490':'constant',[1.2835593522437]
+MF491='out1mf491':'constant',[-0.663825539056754]
+MF492='out1mf492':'constant',[8.88889399049735]
+MF493='out1mf493':'constant',[0]
+MF494='out1mf494':'constant',[0]
+MF495='out1mf495':'constant',[0]
+MF496='out1mf496':'constant',[-6.00111721799737]
+MF497='out1mf497':'constant',[11.3354189784952]
+MF498='out1mf498':'constant',[18.6006239682259]
+MF499='out1mf499':'constant',[13.9877276130304]
+MF500='out1mf500':'constant',[-8.74853092433615]
+MF501='out1mf501':'constant',[-68.8649462537128]
+MF502='out1mf502':'constant',[1.0979660537608]
+MF503='out1mf503':'constant',[-30.9958492865187]
+MF504='out1mf504':'constant',[-4.79254298728048]
+MF505='out1mf505':'constant',[-19.222491236919]
+MF506='out1mf506':'constant',[26.9870303280886]
+MF507='out1mf507':'constant',[30.5400243759147]
+MF508='out1mf508':'constant',[-27.5230945198556]
+MF509='out1mf509':'constant',[-188.555394258997]
+MF510='out1mf510':'constant',[-6.574273131595]
+MF511='out1mf511':'constant',[0.376928768711354]
+MF512='out1mf512':'constant',[1.93396878291559]
+MF513='out1mf513':'constant',[-1.31886300056978]
+MF514='out1mf514':'constant',[2.66048156099372]
+MF515='out1mf515':'constant',[2.59350171217497]
+MF516='out1mf516':'constant',[1.1858943561153]
+MF517='out1mf517':'constant',[-3.01200096160248]
+MF518='out1mf518':'constant',[7.51529255327243]
+MF519='out1mf519':'constant',[11.7756045799257]
+MF520='out1mf520':'constant',[0]
+MF521='out1mf521':'constant',[0]
+MF522='out1mf522':'constant',[0]
+MF523='out1mf523':'constant',[3.89274374629111]
+MF524='out1mf524':'constant',[-7.60591784589929]
+MF525='out1mf525':'constant',[30.7063124603039]
+MF526='out1mf526':'constant',[-1.32395048424371]
+MF527='out1mf527':'constant',[8.89923909111796]
+MF528='out1mf528':'constant',[2.82843373183996]
+MF529='out1mf529':'constant',[0.823379943184492]
+MF530='out1mf530':'constant',[-11.7228762619173]
+MF531='out1mf531':'constant',[-3.23072786161997]
+MF532='out1mf532':'constant',[-28.2743648339963]
+MF533='out1mf533':'constant',[119.471492956846]
+MF534='out1mf534':'constant',[50.0084571190428]
+MF535='out1mf535':'constant',[-63.7254007594407]
+MF536='out1mf536':'constant',[124.707374101043]
+MF537='out1mf537':'constant',[77.6739034529575]
+MF538='out1mf538':'constant',[0.282664101593105]
+MF539='out1mf539':'constant',[4.33484146881317]
+MF540='out1mf540':'constant',[-0.871989882707998]
+MF541='out1mf541':'constant',[-0.59160065900087]
+MF542='out1mf542':'constant',[1.28928816990064]
+MF543='out1mf543':'constant',[0]
+MF544='out1mf544':'constant',[-1.71537003887829]
+MF545='out1mf545':'constant',[1.6110792110976]
+MF546='out1mf546':'constant',[0]
+MF547='out1mf547':'constant',[0]
+MF548='out1mf548':'constant',[0]
+MF549='out1mf549':'constant',[0]
+MF550='out1mf550':'constant',[-4.39343088647611]
+MF551='out1mf551':'constant',[2.24980135875293]
+MF552='out1mf552':'constant',[0]
+MF553='out1mf553':'constant',[-1.24506468108078]
+MF554='out1mf554':'constant',[1.86952547132041]
+MF555='out1mf555':'constant',[0]
+MF556='out1mf556':'constant',[0]
+MF557='out1mf557':'constant',[0]
+MF558='out1mf558':'constant',[0]
+MF559='out1mf559':'constant',[0]
+MF560='out1mf560':'constant',[0]
+MF561='out1mf561':'constant',[0]
+MF562='out1mf562':'constant',[0]
+MF563='out1mf563':'constant',[0]
+MF564='out1mf564':'constant',[0]
+MF565='out1mf565':'constant',[0]
+MF566='out1mf566':'constant',[0]
+MF567='out1mf567':'constant',[0]
+MF568='out1mf568':'constant',[-0.302029017321613]
+MF569='out1mf569':'constant',[6.06684513911274]
+MF570='out1mf570':'constant',[5.26515860513341]
+MF571='out1mf571':'constant',[-11.3350707282236]
+MF572='out1mf572':'constant',[15.5042007169871]
+MF573='out1mf573':'constant',[56.5993573805765]
+MF574='out1mf574':'constant',[0]
+MF575='out1mf575':'constant',[0]
+MF576='out1mf576':'constant',[0]
+MF577='out1mf577':'constant',[3.92082594973001]
+MF578='out1mf578':'constant',[-11.8003718319203]
+MF579='out1mf579':'constant',[110.962132642615]
+MF580='out1mf580':'constant',[14.2639873228186]
+MF581='out1mf581':'constant',[-4.32702385389787]
+MF582='out1mf582':'constant',[-22.9819433706753]
+MF583='out1mf583':'constant',[5.15195916817945]
+MF584='out1mf584':'constant',[10.5143227925062]
+MF585='out1mf585':'constant',[-16.7998238041159]
+MF586='out1mf586':'constant',[0.0351465432951268]
+MF587='out1mf587':'constant',[13.9058441624424]
+MF588='out1mf588':'constant',[63.5435068237812]
+MF589='out1mf589':'constant',[-58.3338338558495]
+MF590='out1mf590':'constant',[20.9905650175978]
+MF591='out1mf591':'constant',[165.858796916794]
+MF592='out1mf592':'constant',[1.76865361097504]
+MF593='out1mf593':'constant',[47.647736504617]
+MF594='out1mf594':'constant',[-4.50926054946149]
+MF595='out1mf595':'constant',[1.75170308635557]
+MF596='out1mf596':'constant',[-2.1559609569208]
+MF597='out1mf597':'constant',[-22.2260086409025]
+MF598='out1mf598':'constant',[9.63888149182734]
+MF599='out1mf599':'constant',[-15.2212811035254]
+MF600='out1mf600':'constant',[35.2458427171066]
+MF601='out1mf601':'constant',[0]
+MF602='out1mf602':'constant',[0]
+MF603='out1mf603':'constant',[0]
+MF604='out1mf604':'constant',[-0.677028194330946]
+MF605='out1mf605':'constant',[8.40744098785362]
+MF606='out1mf606':'constant',[-3.23179018778453]
+MF607='out1mf607':'constant',[-8.15749902486883]
+MF608='out1mf608':'constant',[10.0320229093094]
+MF609='out1mf609':'constant',[52.4554889624062]
+MF610='out1mf610':'constant',[3.86352550031286]
+MF611='out1mf611':'constant',[48.0329365527993]
+MF612='out1mf612':'constant',[-11.2608969333946]
+MF613='out1mf613':'constant',[-6.75797860117142]
+MF614='out1mf614':'constant',[-8.38409055835813]
+MF615='out1mf615':'constant',[-160.134887343667]
+MF616='out1mf616':'constant',[39.4685888864282]
+MF617='out1mf617':'constant',[-13.4176927762796]
+MF618='out1mf618':'constant',[48.4613435692825]
+MF619='out1mf619':'constant',[1.32633782686567]
+MF620='out1mf620':'constant',[45.6738151920104]
+MF621='out1mf621':'constant',[-2.97665499540815]
+MF622='out1mf622':'constant',[2.41668348442705]
+MF623='out1mf623':'constant',[-4.39805612367619]
+MF624='out1mf624':'constant',[-2.13207252509933]
+MF625='out1mf625':'constant',[9.56891491860256]
+MF626='out1mf626':'constant',[17.8849083498521]
+MF627='out1mf627':'constant',[-3.45525332958921]
+MF628='out1mf628':'constant',[0]
+MF629='out1mf629':'constant',[0]
+MF630='out1mf630':'constant',[0]
+MF631='out1mf631':'constant',[-5.526176655292]
+MF632='out1mf632':'constant',[15.9993843190877]
+MF633='out1mf633':'constant',[-9.88789503123093]
+MF634='out1mf634':'constant',[-3.38837801439945]
+MF635='out1mf635':'constant',[-9.11098684380011]
+MF636='out1mf636':'constant',[-13.8244041488462]
+MF637='out1mf637':'constant',[0]
+MF638='out1mf638':'constant',[0]
+MF639='out1mf639':'constant',[0]
+MF640='out1mf640':'constant',[-7.16946477656344]
+MF641='out1mf641':'constant',[-0.233356700248637]
+MF642='out1mf642':'constant',[0]
+MF643='out1mf643':'constant',[-1.80005172313417]
+MF644='out1mf644':'constant',[2.52765112313332]
+MF645='out1mf645':'constant',[0]
+MF646='out1mf646':'constant',[0]
+MF647='out1mf647':'constant',[0]
+MF648='out1mf648':'constant',[0]
+MF649='out1mf649':'constant',[6.07597165570393]
+MF650='out1mf650':'constant',[-7.29668339923155]
+MF651='out1mf651':'constant',[0]
+MF652='out1mf652':'constant',[-4.71594535082097]
+MF653='out1mf653':'constant',[3.89752143159924]
+MF654='out1mf654':'constant',[0]
+MF655='out1mf655':'constant',[0]
+MF656='out1mf656':'constant',[0]
+MF657='out1mf657':'constant',[0]
+MF658='out1mf658':'constant',[-4.70919726794349]
+MF659='out1mf659':'constant',[8.96455261976409]
+MF660='out1mf660':'constant',[-1.34143890224689]
+MF661='out1mf661':'constant',[13.1983135778573]
+MF662='out1mf662':'constant',[-1.35304186141618]
+MF663='out1mf663':'constant',[-2.90204488699802]
+MF664='out1mf664':'constant',[0]
+MF665='out1mf665':'constant',[0]
+MF666='out1mf666':'constant',[0]
+MF667='out1mf667':'constant',[42.323437165925]
+MF668='out1mf668':'constant',[-20.8760317624362]
+MF669='out1mf669':'constant',[-8.52610541505809]
+MF670='out1mf670':'constant',[-20.48061438799]
+MF671='out1mf671':'constant',[28.8106135378902]
+MF672='out1mf672':'constant',[-16.2665253467204]
+MF673='out1mf673':'constant',[0]
+MF674='out1mf674':'constant',[0]
+MF675='out1mf675':'constant',[0]
+MF676='out1mf676':'constant',[3.76348493238541]
+MF677='out1mf677':'constant',[-4.51987584268776]
+MF678='out1mf678':'constant',[-8.18964280790294]
+MF679='out1mf679':'constant',[-14.6111619590847]
+MF680='out1mf680':'constant',[33.1464751633204]
+MF681='out1mf681':'constant',[-11.8299278077466]
+MF682='out1mf682':'constant',[0]
+MF683='out1mf683':'constant',[0]
+MF684='out1mf684':'constant',[0]
+MF685='out1mf685':'constant',[-3.10351346881735]
+MF686='out1mf686':'constant',[11.7548513912328]
+MF687='out1mf687':'constant',[-18.1010577813712]
+MF688='out1mf688':'constant',[15.8443265015834]
+MF689='out1mf689':'constant',[-38.0610723993541]
+MF690='out1mf690':'constant',[-28.0636245016634]
+MF691='out1mf691':'constant',[0]
+MF692='out1mf692':'constant',[0]
+MF693='out1mf693':'constant',[0]
+MF694='out1mf694':'constant',[12.6588607163827]
+MF695='out1mf695':'constant',[2.40903634399849]
+MF696='out1mf696':'constant',[-26.1686695425062]
+MF697='out1mf697':'constant',[-48.2342920434389]
+MF698='out1mf698':'constant',[35.1400418829389]
+MF699='out1mf699':'constant',[-48.8330732702357]
+MF700='out1mf700':'constant',[0]
+MF701='out1mf701':'constant',[0]
+MF702='out1mf702':'constant',[0]
+MF703='out1mf703':'constant',[-2.02085546260029]
+MF704='out1mf704':'constant',[7.07075286212723]
+MF705='out1mf705':'constant',[-0.755680429688945]
+MF706='out1mf706':'constant',[-0.305752876187443]
+MF707='out1mf707':'constant',[-0.456498079847886]
+MF708='out1mf708':'constant',[0.172464690377547]
+MF709='out1mf709':'constant',[0]
+MF710='out1mf710':'constant',[0]
+MF711='out1mf711':'constant',[0]
+MF712='out1mf712':'constant',[11.9346649506225]
+MF713='out1mf713':'constant',[-23.043890506228]
+MF714='out1mf714':'constant',[-1.09302376976007]
+MF715='out1mf715':'constant',[-1.08958438217763]
+MF716='out1mf716':'constant',[6.1657410285562]
+MF717='out1mf717':'constant',[-1.34237555638776]
+MF718='out1mf718':'constant',[0]
+MF719='out1mf719':'constant',[0]
+MF720='out1mf720':'constant',[0]
+MF721='out1mf721':'constant',[0.0362932874924665]
+MF722='out1mf722':'constant',[-1.18838819153344]
+MF723='out1mf723':'constant',[0]
+MF724='out1mf724':'constant',[-1.0631453129946]
+MF725='out1mf725':'constant',[1.04187709020476]
+MF726='out1mf726':'constant',[0]
+MF727='out1mf727':'constant',[0]
+MF728='out1mf728':'constant',[0]
+MF729='out1mf729':'constant',[0]
+
+[Rules]
+1 1 1 1 1 1, 1 (1) : 1
+1 1 1 1 1 2, 2 (1) : 1
+1 1 1 1 1 3, 3 (1) : 1
+1 1 1 1 2 1, 4 (1) : 1
+1 1 1 1 2 2, 5 (1) : 1
+1 1 1 1 2 3, 6 (1) : 1
+1 1 1 1 3 1, 7 (1) : 1
+1 1 1 1 3 2, 8 (1) : 1
+1 1 1 1 3 3, 9 (1) : 1
+1 1 1 2 1 1, 10 (1) : 1
+1 1 1 2 1 2, 11 (1) : 1
+1 1 1 2 1 3, 12 (1) : 1
+1 1 1 2 2 1, 13 (1) : 1
+1 1 1 2 2 2, 14 (1) : 1
+1 1 1 2 2 3, 15 (1) : 1
+1 1 1 2 3 1, 16 (1) : 1
+1 1 1 2 3 2, 17 (1) : 1
+1 1 1 2 3 3, 18 (1) : 1
+1 1 1 3 1 1, 19 (1) : 1
+1 1 1 3 1 2, 20 (1) : 1
+1 1 1 3 1 3, 21 (1) : 1
+1 1 1 3 2 1, 22 (1) : 1
+1 1 1 3 2 2, 23 (1) : 1
+1 1 1 3 2 3, 24 (1) : 1
+1 1 1 3 3 1, 25 (1) : 1
+1 1 1 3 3 2, 26 (1) : 1
+1 1 1 3 3 3, 27 (1) : 1
+1 1 2 1 1 1, 28 (1) : 1
+1 1 2 1 1 2, 29 (1) : 1
+1 1 2 1 1 3, 30 (1) : 1
+1 1 2 1 2 1, 31 (1) : 1
+1 1 2 1 2 2, 32 (1) : 1
+1 1 2 1 2 3, 33 (1) : 1
+1 1 2 1 3 1, 34 (1) : 1
+1 1 2 1 3 2, 35 (1) : 1
+1 1 2 1 3 3, 36 (1) : 1
+1 1 2 2 1 1, 37 (1) : 1
+1 1 2 2 1 2, 38 (1) : 1
+1 1 2 2 1 3, 39 (1) : 1
+1 1 2 2 2 1, 40 (1) : 1
+1 1 2 2 2 2, 41 (1) : 1
+1 1 2 2 2 3, 42 (1) : 1
+1 1 2 2 3 1, 43 (1) : 1
+1 1 2 2 3 2, 44 (1) : 1
+1 1 2 2 3 3, 45 (1) : 1
+1 1 2 3 1 1, 46 (1) : 1
+1 1 2 3 1 2, 47 (1) : 1
+1 1 2 3 1 3, 48 (1) : 1
+1 1 2 3 2 1, 49 (1) : 1
+1 1 2 3 2 2, 50 (1) : 1
+1 1 2 3 2 3, 51 (1) : 1
+1 1 2 3 3 1, 52 (1) : 1
+1 1 2 3 3 2, 53 (1) : 1
+1 1 2 3 3 3, 54 (1) : 1
+1 1 3 1 1 1, 55 (1) : 1
+1 1 3 1 1 2, 56 (1) : 1
+1 1 3 1 1 3, 57 (1) : 1
+1 1 3 1 2 1, 58 (1) : 1
+1 1 3 1 2 2, 59 (1) : 1
+1 1 3 1 2 3, 60 (1) : 1
+1 1 3 1 3 1, 61 (1) : 1
+1 1 3 1 3 2, 62 (1) : 1
+1 1 3 1 3 3, 63 (1) : 1
+1 1 3 2 1 1, 64 (1) : 1
+1 1 3 2 1 2, 65 (1) : 1
+1 1 3 2 1 3, 66 (1) : 1
+1 1 3 2 2 1, 67 (1) : 1
+1 1 3 2 2 2, 68 (1) : 1
+1 1 3 2 2 3, 69 (1) : 1
+1 1 3 2 3 1, 70 (1) : 1
+1 1 3 2 3 2, 71 (1) : 1
+1 1 3 2 3 3, 72 (1) : 1
+1 1 3 3 1 1, 73 (1) : 1
+1 1 3 3 1 2, 74 (1) : 1
+1 1 3 3 1 3, 75 (1) : 1
+1 1 3 3 2 1, 76 (1) : 1
+1 1 3 3 2 2, 77 (1) : 1
+1 1 3 3 2 3, 78 (1) : 1
+1 1 3 3 3 1, 79 (1) : 1
+1 1 3 3 3 2, 80 (1) : 1
+1 1 3 3 3 3, 81 (1) : 1
+1 2 1 1 1 1, 82 (1) : 1
+1 2 1 1 1 2, 83 (1) : 1
+1 2 1 1 1 3, 84 (1) : 1
+1 2 1 1 2 1, 85 (1) : 1
+1 2 1 1 2 2, 86 (1) : 1
+1 2 1 1 2 3, 87 (1) : 1
+1 2 1 1 3 1, 88 (1) : 1
+1 2 1 1 3 2, 89 (1) : 1
+1 2 1 1 3 3, 90 (1) : 1
+1 2 1 2 1 1, 91 (1) : 1
+1 2 1 2 1 2, 92 (1) : 1
+1 2 1 2 1 3, 93 (1) : 1
+1 2 1 2 2 1, 94 (1) : 1
+1 2 1 2 2 2, 95 (1) : 1
+1 2 1 2 2 3, 96 (1) : 1
+1 2 1 2 3 1, 97 (1) : 1
+1 2 1 2 3 2, 98 (1) : 1
+1 2 1 2 3 3, 99 (1) : 1
+1 2 1 3 1 1, 100 (1) : 1
+1 2 1 3 1 2, 101 (1) : 1
+1 2 1 3 1 3, 102 (1) : 1
+1 2 1 3 2 1, 103 (1) : 1
+1 2 1 3 2 2, 104 (1) : 1
+1 2 1 3 2 3, 105 (1) : 1
+1 2 1 3 3 1, 106 (1) : 1
+1 2 1 3 3 2, 107 (1) : 1
+1 2 1 3 3 3, 108 (1) : 1
+1 2 2 1 1 1, 109 (1) : 1
+1 2 2 1 1 2, 110 (1) : 1
+1 2 2 1 1 3, 111 (1) : 1
+1 2 2 1 2 1, 112 (1) : 1
+1 2 2 1 2 2, 113 (1) : 1
+1 2 2 1 2 3, 114 (1) : 1
+1 2 2 1 3 1, 115 (1) : 1
+1 2 2 1 3 2, 116 (1) : 1
+1 2 2 1 3 3, 117 (1) : 1
+1 2 2 2 1 1, 118 (1) : 1
+1 2 2 2 1 2, 119 (1) : 1
+1 2 2 2 1 3, 120 (1) : 1
+1 2 2 2 2 1, 121 (1) : 1
+1 2 2 2 2 2, 122 (1) : 1
+1 2 2 2 2 3, 123 (1) : 1
+1 2 2 2 3 1, 124 (1) : 1
+1 2 2 2 3 2, 125 (1) : 1
+1 2 2 2 3 3, 126 (1) : 1
+1 2 2 3 1 1, 127 (1) : 1
+1 2 2 3 1 2, 128 (1) : 1
+1 2 2 3 1 3, 129 (1) : 1
+1 2 2 3 2 1, 130 (1) : 1
+1 2 2 3 2 2, 131 (1) : 1
+1 2 2 3 2 3, 132 (1) : 1
+1 2 2 3 3 1, 133 (1) : 1
+1 2 2 3 3 2, 134 (1) : 1
+1 2 2 3 3 3, 135 (1) : 1
+1 2 3 1 1 1, 136 (1) : 1
+1 2 3 1 1 2, 137 (1) : 1
+1 2 3 1 1 3, 138 (1) : 1
+1 2 3 1 2 1, 139 (1) : 1
+1 2 3 1 2 2, 140 (1) : 1
+1 2 3 1 2 3, 141 (1) : 1
+1 2 3 1 3 1, 142 (1) : 1
+1 2 3 1 3 2, 143 (1) : 1
+1 2 3 1 3 3, 144 (1) : 1
+1 2 3 2 1 1, 145 (1) : 1
+1 2 3 2 1 2, 146 (1) : 1
+1 2 3 2 1 3, 147 (1) : 1
+1 2 3 2 2 1, 148 (1) : 1
+1 2 3 2 2 2, 149 (1) : 1
+1 2 3 2 2 3, 150 (1) : 1
+1 2 3 2 3 1, 151 (1) : 1
+1 2 3 2 3 2, 152 (1) : 1
+1 2 3 2 3 3, 153 (1) : 1
+1 2 3 3 1 1, 154 (1) : 1
+1 2 3 3 1 2, 155 (1) : 1
+1 2 3 3 1 3, 156 (1) : 1
+1 2 3 3 2 1, 157 (1) : 1
+1 2 3 3 2 2, 158 (1) : 1
+1 2 3 3 2 3, 159 (1) : 1
+1 2 3 3 3 1, 160 (1) : 1
+1 2 3 3 3 2, 161 (1) : 1
+1 2 3 3 3 3, 162 (1) : 1
+1 3 1 1 1 1, 163 (1) : 1
+1 3 1 1 1 2, 164 (1) : 1
+1 3 1 1 1 3, 165 (1) : 1
+1 3 1 1 2 1, 166 (1) : 1
+1 3 1 1 2 2, 167 (1) : 1
+1 3 1 1 2 3, 168 (1) : 1
+1 3 1 1 3 1, 169 (1) : 1
+1 3 1 1 3 2, 170 (1) : 1
+1 3 1 1 3 3, 171 (1) : 1
+1 3 1 2 1 1, 172 (1) : 1
+1 3 1 2 1 2, 173 (1) : 1
+1 3 1 2 1 3, 174 (1) : 1
+1 3 1 2 2 1, 175 (1) : 1
+1 3 1 2 2 2, 176 (1) : 1
+1 3 1 2 2 3, 177 (1) : 1
+1 3 1 2 3 1, 178 (1) : 1
+1 3 1 2 3 2, 179 (1) : 1
+1 3 1 2 3 3, 180 (1) : 1
+1 3 1 3 1 1, 181 (1) : 1
+1 3 1 3 1 2, 182 (1) : 1
+1 3 1 3 1 3, 183 (1) : 1
+1 3 1 3 2 1, 184 (1) : 1
+1 3 1 3 2 2, 185 (1) : 1
+1 3 1 3 2 3, 186 (1) : 1
+1 3 1 3 3 1, 187 (1) : 1
+1 3 1 3 3 2, 188 (1) : 1
+1 3 1 3 3 3, 189 (1) : 1
+1 3 2 1 1 1, 190 (1) : 1
+1 3 2 1 1 2, 191 (1) : 1
+1 3 2 1 1 3, 192 (1) : 1
+1 3 2 1 2 1, 193 (1) : 1
+1 3 2 1 2 2, 194 (1) : 1
+1 3 2 1 2 3, 195 (1) : 1
+1 3 2 1 3 1, 196 (1) : 1
+1 3 2 1 3 2, 197 (1) : 1
+1 3 2 1 3 3, 198 (1) : 1
+1 3 2 2 1 1, 199 (1) : 1
+1 3 2 2 1 2, 200 (1) : 1
+1 3 2 2 1 3, 201 (1) : 1
+1 3 2 2 2 1, 202 (1) : 1
+1 3 2 2 2 2, 203 (1) : 1
+1 3 2 2 2 3, 204 (1) : 1
+1 3 2 2 3 1, 205 (1) : 1
+1 3 2 2 3 2, 206 (1) : 1
+1 3 2 2 3 3, 207 (1) : 1
+1 3 2 3 1 1, 208 (1) : 1
+1 3 2 3 1 2, 209 (1) : 1
+1 3 2 3 1 3, 210 (1) : 1
+1 3 2 3 2 1, 211 (1) : 1
+1 3 2 3 2 2, 212 (1) : 1
+1 3 2 3 2 3, 213 (1) : 1
+1 3 2 3 3 1, 214 (1) : 1
+1 3 2 3 3 2, 215 (1) : 1
+1 3 2 3 3 3, 216 (1) : 1
+1 3 3 1 1 1, 217 (1) : 1
+1 3 3 1 1 2, 218 (1) : 1
+1 3 3 1 1 3, 219 (1) : 1
+1 3 3 1 2 1, 220 (1) : 1
+1 3 3 1 2 2, 221 (1) : 1
+1 3 3 1 2 3, 222 (1) : 1
+1 3 3 1 3 1, 223 (1) : 1
+1 3 3 1 3 2, 224 (1) : 1
+1 3 3 1 3 3, 225 (1) : 1
+1 3 3 2 1 1, 226 (1) : 1
+1 3 3 2 1 2, 227 (1) : 1
+1 3 3 2 1 3, 228 (1) : 1
+1 3 3 2 2 1, 229 (1) : 1
+1 3 3 2 2 2, 230 (1) : 1
+1 3 3 2 2 3, 231 (1) : 1
+1 3 3 2 3 1, 232 (1) : 1
+1 3 3 2 3 2, 233 (1) : 1
+1 3 3 2 3 3, 234 (1) : 1
+1 3 3 3 1 1, 235 (1) : 1
+1 3 3 3 1 2, 236 (1) : 1
+1 3 3 3 1 3, 237 (1) : 1
+1 3 3 3 2 1, 238 (1) : 1
+1 3 3 3 2 2, 239 (1) : 1
+1 3 3 3 2 3, 240 (1) : 1
+1 3 3 3 3 1, 241 (1) : 1
+1 3 3 3 3 2, 242 (1) : 1
+1 3 3 3 3 3, 243 (1) : 1
+2 1 1 1 1 1, 244 (1) : 1
+2 1 1 1 1 2, 245 (1) : 1
+2 1 1 1 1 3, 246 (1) : 1
+2 1 1 1 2 1, 247 (1) : 1
+2 1 1 1 2 2, 248 (1) : 1
+2 1 1 1 2 3, 249 (1) : 1
+2 1 1 1 3 1, 250 (1) : 1
+2 1 1 1 3 2, 251 (1) : 1
+2 1 1 1 3 3, 252 (1) : 1
+2 1 1 2 1 1, 253 (1) : 1
+2 1 1 2 1 2, 254 (1) : 1
+2 1 1 2 1 3, 255 (1) : 1
+2 1 1 2 2 1, 256 (1) : 1
+2 1 1 2 2 2, 257 (1) : 1
+2 1 1 2 2 3, 258 (1) : 1
+2 1 1 2 3 1, 259 (1) : 1
+2 1 1 2 3 2, 260 (1) : 1
+2 1 1 2 3 3, 261 (1) : 1
+2 1 1 3 1 1, 262 (1) : 1
+2 1 1 3 1 2, 263 (1) : 1
+2 1 1 3 1 3, 264 (1) : 1
+2 1 1 3 2 1, 265 (1) : 1
+2 1 1 3 2 2, 266 (1) : 1
+2 1 1 3 2 3, 267 (1) : 1
+2 1 1 3 3 1, 268 (1) : 1
+2 1 1 3 3 2, 269 (1) : 1
+2 1 1 3 3 3, 270 (1) : 1
+2 1 2 1 1 1, 271 (1) : 1
+2 1 2 1 1 2, 272 (1) : 1
+2 1 2 1 1 3, 273 (1) : 1
+2 1 2 1 2 1, 274 (1) : 1
+2 1 2 1 2 2, 275 (1) : 1
+2 1 2 1 2 3, 276 (1) : 1
+2 1 2 1 3 1, 277 (1) : 1
+2 1 2 1 3 2, 278 (1) : 1
+2 1 2 1 3 3, 279 (1) : 1
+2 1 2 2 1 1, 280 (1) : 1
+2 1 2 2 1 2, 281 (1) : 1
+2 1 2 2 1 3, 282 (1) : 1
+2 1 2 2 2 1, 283 (1) : 1
+2 1 2 2 2 2, 284 (1) : 1
+2 1 2 2 2 3, 285 (1) : 1
+2 1 2 2 3 1, 286 (1) : 1
+2 1 2 2 3 2, 287 (1) : 1
+2 1 2 2 3 3, 288 (1) : 1
+2 1 2 3 1 1, 289 (1) : 1
+2 1 2 3 1 2, 290 (1) : 1
+2 1 2 3 1 3, 291 (1) : 1
+2 1 2 3 2 1, 292 (1) : 1
+2 1 2 3 2 2, 293 (1) : 1
+2 1 2 3 2 3, 294 (1) : 1
+2 1 2 3 3 1, 295 (1) : 1
+2 1 2 3 3 2, 296 (1) : 1
+2 1 2 3 3 3, 297 (1) : 1
+2 1 3 1 1 1, 298 (1) : 1
+2 1 3 1 1 2, 299 (1) : 1
+2 1 3 1 1 3, 300 (1) : 1
+2 1 3 1 2 1, 301 (1) : 1
+2 1 3 1 2 2, 302 (1) : 1
+2 1 3 1 2 3, 303 (1) : 1
+2 1 3 1 3 1, 304 (1) : 1
+2 1 3 1 3 2, 305 (1) : 1
+2 1 3 1 3 3, 306 (1) : 1
+2 1 3 2 1 1, 307 (1) : 1
+2 1 3 2 1 2, 308 (1) : 1
+2 1 3 2 1 3, 309 (1) : 1
+2 1 3 2 2 1, 310 (1) : 1
+2 1 3 2 2 2, 311 (1) : 1
+2 1 3 2 2 3, 312 (1) : 1
+2 1 3 2 3 1, 313 (1) : 1
+2 1 3 2 3 2, 314 (1) : 1
+2 1 3 2 3 3, 315 (1) : 1
+2 1 3 3 1 1, 316 (1) : 1
+2 1 3 3 1 2, 317 (1) : 1
+2 1 3 3 1 3, 318 (1) : 1
+2 1 3 3 2 1, 319 (1) : 1
+2 1 3 3 2 2, 320 (1) : 1
+2 1 3 3 2 3, 321 (1) : 1
+2 1 3 3 3 1, 322 (1) : 1
+2 1 3 3 3 2, 323 (1) : 1
+2 1 3 3 3 3, 324 (1) : 1
+2 2 1 1 1 1, 325 (1) : 1
+2 2 1 1 1 2, 326 (1) : 1
+2 2 1 1 1 3, 327 (1) : 1
+2 2 1 1 2 1, 328 (1) : 1
+2 2 1 1 2 2, 329 (1) : 1
+2 2 1 1 2 3, 330 (1) : 1
+2 2 1 1 3 1, 331 (1) : 1
+2 2 1 1 3 2, 332 (1) : 1
+2 2 1 1 3 3, 333 (1) : 1
+2 2 1 2 1 1, 334 (1) : 1
+2 2 1 2 1 2, 335 (1) : 1
+2 2 1 2 1 3, 336 (1) : 1
+2 2 1 2 2 1, 337 (1) : 1
+2 2 1 2 2 2, 338 (1) : 1
+2 2 1 2 2 3, 339 (1) : 1
+2 2 1 2 3 1, 340 (1) : 1
+2 2 1 2 3 2, 341 (1) : 1
+2 2 1 2 3 3, 342 (1) : 1
+2 2 1 3 1 1, 343 (1) : 1
+2 2 1 3 1 2, 344 (1) : 1
+2 2 1 3 1 3, 345 (1) : 1
+2 2 1 3 2 1, 346 (1) : 1
+2 2 1 3 2 2, 347 (1) : 1
+2 2 1 3 2 3, 348 (1) : 1
+2 2 1 3 3 1, 349 (1) : 1
+2 2 1 3 3 2, 350 (1) : 1
+2 2 1 3 3 3, 351 (1) : 1
+2 2 2 1 1 1, 352 (1) : 1
+2 2 2 1 1 2, 353 (1) : 1
+2 2 2 1 1 3, 354 (1) : 1
+2 2 2 1 2 1, 355 (1) : 1
+2 2 2 1 2 2, 356 (1) : 1
+2 2 2 1 2 3, 357 (1) : 1
+2 2 2 1 3 1, 358 (1) : 1
+2 2 2 1 3 2, 359 (1) : 1
+2 2 2 1 3 3, 360 (1) : 1
+2 2 2 2 1 1, 361 (1) : 1
+2 2 2 2 1 2, 362 (1) : 1
+2 2 2 2 1 3, 363 (1) : 1
+2 2 2 2 2 1, 364 (1) : 1
+2 2 2 2 2 2, 365 (1) : 1
+2 2 2 2 2 3, 366 (1) : 1
+2 2 2 2 3 1, 367 (1) : 1
+2 2 2 2 3 2, 368 (1) : 1
+2 2 2 2 3 3, 369 (1) : 1
+2 2 2 3 1 1, 370 (1) : 1
+2 2 2 3 1 2, 371 (1) : 1
+2 2 2 3 1 3, 372 (1) : 1
+2 2 2 3 2 1, 373 (1) : 1
+2 2 2 3 2 2, 374 (1) : 1
+2 2 2 3 2 3, 375 (1) : 1
+2 2 2 3 3 1, 376 (1) : 1
+2 2 2 3 3 2, 377 (1) : 1
+2 2 2 3 3 3, 378 (1) : 1
+2 2 3 1 1 1, 379 (1) : 1
+2 2 3 1 1 2, 380 (1) : 1
+2 2 3 1 1 3, 381 (1) : 1
+2 2 3 1 2 1, 382 (1) : 1
+2 2 3 1 2 2, 383 (1) : 1
+2 2 3 1 2 3, 384 (1) : 1
+2 2 3 1 3 1, 385 (1) : 1
+2 2 3 1 3 2, 386 (1) : 1
+2 2 3 1 3 3, 387 (1) : 1
+2 2 3 2 1 1, 388 (1) : 1
+2 2 3 2 1 2, 389 (1) : 1
+2 2 3 2 1 3, 390 (1) : 1
+2 2 3 2 2 1, 391 (1) : 1
+2 2 3 2 2 2, 392 (1) : 1
+2 2 3 2 2 3, 393 (1) : 1
+2 2 3 2 3 1, 394 (1) : 1
+2 2 3 2 3 2, 395 (1) : 1
+2 2 3 2 3 3, 396 (1) : 1
+2 2 3 3 1 1, 397 (1) : 1
+2 2 3 3 1 2, 398 (1) : 1
+2 2 3 3 1 3, 399 (1) : 1
+2 2 3 3 2 1, 400 (1) : 1
+2 2 3 3 2 2, 401 (1) : 1
+2 2 3 3 2 3, 402 (1) : 1
+2 2 3 3 3 1, 403 (1) : 1
+2 2 3 3 3 2, 404 (1) : 1
+2 2 3 3 3 3, 405 (1) : 1
+2 3 1 1 1 1, 406 (1) : 1
+2 3 1 1 1 2, 407 (1) : 1
+2 3 1 1 1 3, 408 (1) : 1
+2 3 1 1 2 1, 409 (1) : 1
+2 3 1 1 2 2, 410 (1) : 1
+2 3 1 1 2 3, 411 (1) : 1
+2 3 1 1 3 1, 412 (1) : 1
+2 3 1 1 3 2, 413 (1) : 1
+2 3 1 1 3 3, 414 (1) : 1
+2 3 1 2 1 1, 415 (1) : 1
+2 3 1 2 1 2, 416 (1) : 1
+2 3 1 2 1 3, 417 (1) : 1
+2 3 1 2 2 1, 418 (1) : 1
+2 3 1 2 2 2, 419 (1) : 1
+2 3 1 2 2 3, 420 (1) : 1
+2 3 1 2 3 1, 421 (1) : 1
+2 3 1 2 3 2, 422 (1) : 1
+2 3 1 2 3 3, 423 (1) : 1
+2 3 1 3 1 1, 424 (1) : 1
+2 3 1 3 1 2, 425 (1) : 1
+2 3 1 3 1 3, 426 (1) : 1
+2 3 1 3 2 1, 427 (1) : 1
+2 3 1 3 2 2, 428 (1) : 1
+2 3 1 3 2 3, 429 (1) : 1
+2 3 1 3 3 1, 430 (1) : 1
+2 3 1 3 3 2, 431 (1) : 1
+2 3 1 3 3 3, 432 (1) : 1
+2 3 2 1 1 1, 433 (1) : 1
+2 3 2 1 1 2, 434 (1) : 1
+2 3 2 1 1 3, 435 (1) : 1
+2 3 2 1 2 1, 436 (1) : 1
+2 3 2 1 2 2, 437 (1) : 1
+2 3 2 1 2 3, 438 (1) : 1
+2 3 2 1 3 1, 439 (1) : 1
+2 3 2 1 3 2, 440 (1) : 1
+2 3 2 1 3 3, 441 (1) : 1
+2 3 2 2 1 1, 442 (1) : 1
+2 3 2 2 1 2, 443 (1) : 1
+2 3 2 2 1 3, 444 (1) : 1
+2 3 2 2 2 1, 445 (1) : 1
+2 3 2 2 2 2, 446 (1) : 1
+2 3 2 2 2 3, 447 (1) : 1
+2 3 2 2 3 1, 448 (1) : 1
+2 3 2 2 3 2, 449 (1) : 1
+2 3 2 2 3 3, 450 (1) : 1
+2 3 2 3 1 1, 451 (1) : 1
+2 3 2 3 1 2, 452 (1) : 1
+2 3 2 3 1 3, 453 (1) : 1
+2 3 2 3 2 1, 454 (1) : 1
+2 3 2 3 2 2, 455 (1) : 1
+2 3 2 3 2 3, 456 (1) : 1
+2 3 2 3 3 1, 457 (1) : 1
+2 3 2 3 3 2, 458 (1) : 1
+2 3 2 3 3 3, 459 (1) : 1
+2 3 3 1 1 1, 460 (1) : 1
+2 3 3 1 1 2, 461 (1) : 1
+2 3 3 1 1 3, 462 (1) : 1
+2 3 3 1 2 1, 463 (1) : 1
+2 3 3 1 2 2, 464 (1) : 1
+2 3 3 1 2 3, 465 (1) : 1
+2 3 3 1 3 1, 466 (1) : 1
+2 3 3 1 3 2, 467 (1) : 1
+2 3 3 1 3 3, 468 (1) : 1
+2 3 3 2 1 1, 469 (1) : 1
+2 3 3 2 1 2, 470 (1) : 1
+2 3 3 2 1 3, 471 (1) : 1
+2 3 3 2 2 1, 472 (1) : 1
+2 3 3 2 2 2, 473 (1) : 1
+2 3 3 2 2 3, 474 (1) : 1
+2 3 3 2 3 1, 475 (1) : 1
+2 3 3 2 3 2, 476 (1) : 1
+2 3 3 2 3 3, 477 (1) : 1
+2 3 3 3 1 1, 478 (1) : 1
+2 3 3 3 1 2, 479 (1) : 1
+2 3 3 3 1 3, 480 (1) : 1
+2 3 3 3 2 1, 481 (1) : 1
+2 3 3 3 2 2, 482 (1) : 1
+2 3 3 3 2 3, 483 (1) : 1
+2 3 3 3 3 1, 484 (1) : 1
+2 3 3 3 3 2, 485 (1) : 1
+2 3 3 3 3 3, 486 (1) : 1
+3 1 1 1 1 1, 487 (1) : 1
+3 1 1 1 1 2, 488 (1) : 1
+3 1 1 1 1 3, 489 (1) : 1
+3 1 1 1 2 1, 490 (1) : 1
+3 1 1 1 2 2, 491 (1) : 1
+3 1 1 1 2 3, 492 (1) : 1
+3 1 1 1 3 1, 493 (1) : 1
+3 1 1 1 3 2, 494 (1) : 1
+3 1 1 1 3 3, 495 (1) : 1
+3 1 1 2 1 1, 496 (1) : 1
+3 1 1 2 1 2, 497 (1) : 1
+3 1 1 2 1 3, 498 (1) : 1
+3 1 1 2 2 1, 499 (1) : 1
+3 1 1 2 2 2, 500 (1) : 1
+3 1 1 2 2 3, 501 (1) : 1
+3 1 1 2 3 1, 502 (1) : 1
+3 1 1 2 3 2, 503 (1) : 1
+3 1 1 2 3 3, 504 (1) : 1
+3 1 1 3 1 1, 505 (1) : 1
+3 1 1 3 1 2, 506 (1) : 1
+3 1 1 3 1 3, 507 (1) : 1
+3 1 1 3 2 1, 508 (1) : 1
+3 1 1 3 2 2, 509 (1) : 1
+3 1 1 3 2 3, 510 (1) : 1
+3 1 1 3 3 1, 511 (1) : 1
+3 1 1 3 3 2, 512 (1) : 1
+3 1 1 3 3 3, 513 (1) : 1
+3 1 2 1 1 1, 514 (1) : 1
+3 1 2 1 1 2, 515 (1) : 1
+3 1 2 1 1 3, 516 (1) : 1
+3 1 2 1 2 1, 517 (1) : 1
+3 1 2 1 2 2, 518 (1) : 1
+3 1 2 1 2 3, 519 (1) : 1
+3 1 2 1 3 1, 520 (1) : 1
+3 1 2 1 3 2, 521 (1) : 1
+3 1 2 1 3 3, 522 (1) : 1
+3 1 2 2 1 1, 523 (1) : 1
+3 1 2 2 1 2, 524 (1) : 1
+3 1 2 2 1 3, 525 (1) : 1
+3 1 2 2 2 1, 526 (1) : 1
+3 1 2 2 2 2, 527 (1) : 1
+3 1 2 2 2 3, 528 (1) : 1
+3 1 2 2 3 1, 529 (1) : 1
+3 1 2 2 3 2, 530 (1) : 1
+3 1 2 2 3 3, 531 (1) : 1
+3 1 2 3 1 1, 532 (1) : 1
+3 1 2 3 1 2, 533 (1) : 1
+3 1 2 3 1 3, 534 (1) : 1
+3 1 2 3 2 1, 535 (1) : 1
+3 1 2 3 2 2, 536 (1) : 1
+3 1 2 3 2 3, 537 (1) : 1
+3 1 2 3 3 1, 538 (1) : 1
+3 1 2 3 3 2, 539 (1) : 1
+3 1 2 3 3 3, 540 (1) : 1
+3 1 3 1 1 1, 541 (1) : 1
+3 1 3 1 1 2, 542 (1) : 1
+3 1 3 1 1 3, 543 (1) : 1
+3 1 3 1 2 1, 544 (1) : 1
+3 1 3 1 2 2, 545 (1) : 1
+3 1 3 1 2 3, 546 (1) : 1
+3 1 3 1 3 1, 547 (1) : 1
+3 1 3 1 3 2, 548 (1) : 1
+3 1 3 1 3 3, 549 (1) : 1
+3 1 3 2 1 1, 550 (1) : 1
+3 1 3 2 1 2, 551 (1) : 1
+3 1 3 2 1 3, 552 (1) : 1
+3 1 3 2 2 1, 553 (1) : 1
+3 1 3 2 2 2, 554 (1) : 1
+3 1 3 2 2 3, 555 (1) : 1
+3 1 3 2 3 1, 556 (1) : 1
+3 1 3 2 3 2, 557 (1) : 1
+3 1 3 2 3 3, 558 (1) : 1
+3 1 3 3 1 1, 559 (1) : 1
+3 1 3 3 1 2, 560 (1) : 1
+3 1 3 3 1 3, 561 (1) : 1
+3 1 3 3 2 1, 562 (1) : 1
+3 1 3 3 2 2, 563 (1) : 1
+3 1 3 3 2 3, 564 (1) : 1
+3 1 3 3 3 1, 565 (1) : 1
+3 1 3 3 3 2, 566 (1) : 1
+3 1 3 3 3 3, 567 (1) : 1
+3 2 1 1 1 1, 568 (1) : 1
+3 2 1 1 1 2, 569 (1) : 1
+3 2 1 1 1 3, 570 (1) : 1
+3 2 1 1 2 1, 571 (1) : 1
+3 2 1 1 2 2, 572 (1) : 1
+3 2 1 1 2 3, 573 (1) : 1
+3 2 1 1 3 1, 574 (1) : 1
+3 2 1 1 3 2, 575 (1) : 1
+3 2 1 1 3 3, 576 (1) : 1
+3 2 1 2 1 1, 577 (1) : 1
+3 2 1 2 1 2, 578 (1) : 1
+3 2 1 2 1 3, 579 (1) : 1
+3 2 1 2 2 1, 580 (1) : 1
+3 2 1 2 2 2, 581 (1) : 1
+3 2 1 2 2 3, 582 (1) : 1
+3 2 1 2 3 1, 583 (1) : 1
+3 2 1 2 3 2, 584 (1) : 1
+3 2 1 2 3 3, 585 (1) : 1
+3 2 1 3 1 1, 586 (1) : 1
+3 2 1 3 1 2, 587 (1) : 1
+3 2 1 3 1 3, 588 (1) : 1
+3 2 1 3 2 1, 589 (1) : 1
+3 2 1 3 2 2, 590 (1) : 1
+3 2 1 3 2 3, 591 (1) : 1
+3 2 1 3 3 1, 592 (1) : 1
+3 2 1 3 3 2, 593 (1) : 1
+3 2 1 3 3 3, 594 (1) : 1
+3 2 2 1 1 1, 595 (1) : 1
+3 2 2 1 1 2, 596 (1) : 1
+3 2 2 1 1 3, 597 (1) : 1
+3 2 2 1 2 1, 598 (1) : 1
+3 2 2 1 2 2, 599 (1) : 1
+3 2 2 1 2 3, 600 (1) : 1
+3 2 2 1 3 1, 601 (1) : 1
+3 2 2 1 3 2, 602 (1) : 1
+3 2 2 1 3 3, 603 (1) : 1
+3 2 2 2 1 1, 604 (1) : 1
+3 2 2 2 1 2, 605 (1) : 1
+3 2 2 2 1 3, 606 (1) : 1
+3 2 2 2 2 1, 607 (1) : 1
+3 2 2 2 2 2, 608 (1) : 1
+3 2 2 2 2 3, 609 (1) : 1
+3 2 2 2 3 1, 610 (1) : 1
+3 2 2 2 3 2, 611 (1) : 1
+3 2 2 2 3 3, 612 (1) : 1
+3 2 2 3 1 1, 613 (1) : 1
+3 2 2 3 1 2, 614 (1) : 1
+3 2 2 3 1 3, 615 (1) : 1
+3 2 2 3 2 1, 616 (1) : 1
+3 2 2 3 2 2, 617 (1) : 1
+3 2 2 3 2 3, 618 (1) : 1
+3 2 2 3 3 1, 619 (1) : 1
+3 2 2 3 3 2, 620 (1) : 1
+3 2 2 3 3 3, 621 (1) : 1
+3 2 3 1 1 1, 622 (1) : 1
+3 2 3 1 1 2, 623 (1) : 1
+3 2 3 1 1 3, 624 (1) : 1
+3 2 3 1 2 1, 625 (1) : 1
+3 2 3 1 2 2, 626 (1) : 1
+3 2 3 1 2 3, 627 (1) : 1
+3 2 3 1 3 1, 628 (1) : 1
+3 2 3 1 3 2, 629 (1) : 1
+3 2 3 1 3 3, 630 (1) : 1
+3 2 3 2 1 1, 631 (1) : 1
+3 2 3 2 1 2, 632 (1) : 1
+3 2 3 2 1 3, 633 (1) : 1
+3 2 3 2 2 1, 634 (1) : 1
+3 2 3 2 2 2, 635 (1) : 1
+3 2 3 2 2 3, 636 (1) : 1
+3 2 3 2 3 1, 637 (1) : 1
+3 2 3 2 3 2, 638 (1) : 1
+3 2 3 2 3 3, 639 (1) : 1
+3 2 3 3 1 1, 640 (1) : 1
+3 2 3 3 1 2, 641 (1) : 1
+3 2 3 3 1 3, 642 (1) : 1
+3 2 3 3 2 1, 643 (1) : 1
+3 2 3 3 2 2, 644 (1) : 1
+3 2 3 3 2 3, 645 (1) : 1
+3 2 3 3 3 1, 646 (1) : 1
+3 2 3 3 3 2, 647 (1) : 1
+3 2 3 3 3 3, 648 (1) : 1
+3 3 1 1 1 1, 649 (1) : 1
+3 3 1 1 1 2, 650 (1) : 1
+3 3 1 1 1 3, 651 (1) : 1
+3 3 1 1 2 1, 652 (1) : 1
+3 3 1 1 2 2, 653 (1) : 1
+3 3 1 1 2 3, 654 (1) : 1
+3 3 1 1 3 1, 655 (1) : 1
+3 3 1 1 3 2, 656 (1) : 1
+3 3 1 1 3 3, 657 (1) : 1
+3 3 1 2 1 1, 658 (1) : 1
+3 3 1 2 1 2, 659 (1) : 1
+3 3 1 2 1 3, 660 (1) : 1
+3 3 1 2 2 1, 661 (1) : 1
+3 3 1 2 2 2, 662 (1) : 1
+3 3 1 2 2 3, 663 (1) : 1
+3 3 1 2 3 1, 664 (1) : 1
+3 3 1 2 3 2, 665 (1) : 1
+3 3 1 2 3 3, 666 (1) : 1
+3 3 1 3 1 1, 667 (1) : 1
+3 3 1 3 1 2, 668 (1) : 1
+3 3 1 3 1 3, 669 (1) : 1
+3 3 1 3 2 1, 670 (1) : 1
+3 3 1 3 2 2, 671 (1) : 1
+3 3 1 3 2 3, 672 (1) : 1
+3 3 1 3 3 1, 673 (1) : 1
+3 3 1 3 3 2, 674 (1) : 1
+3 3 1 3 3 3, 675 (1) : 1
+3 3 2 1 1 1, 676 (1) : 1
+3 3 2 1 1 2, 677 (1) : 1
+3 3 2 1 1 3, 678 (1) : 1
+3 3 2 1 2 1, 679 (1) : 1
+3 3 2 1 2 2, 680 (1) : 1
+3 3 2 1 2 3, 681 (1) : 1
+3 3 2 1 3 1, 682 (1) : 1
+3 3 2 1 3 2, 683 (1) : 1
+3 3 2 1 3 3, 684 (1) : 1
+3 3 2 2 1 1, 685 (1) : 1
+3 3 2 2 1 2, 686 (1) : 1
+3 3 2 2 1 3, 687 (1) : 1
+3 3 2 2 2 1, 688 (1) : 1
+3 3 2 2 2 2, 689 (1) : 1
+3 3 2 2 2 3, 690 (1) : 1
+3 3 2 2 3 1, 691 (1) : 1
+3 3 2 2 3 2, 692 (1) : 1
+3 3 2 2 3 3, 693 (1) : 1
+3 3 2 3 1 1, 694 (1) : 1
+3 3 2 3 1 2, 695 (1) : 1
+3 3 2 3 1 3, 696 (1) : 1
+3 3 2 3 2 1, 697 (1) : 1
+3 3 2 3 2 2, 698 (1) : 1
+3 3 2 3 2 3, 699 (1) : 1
+3 3 2 3 3 1, 700 (1) : 1
+3 3 2 3 3 2, 701 (1) : 1
+3 3 2 3 3 3, 702 (1) : 1
+3 3 3 1 1 1, 703 (1) : 1
+3 3 3 1 1 2, 704 (1) : 1
+3 3 3 1 1 3, 705 (1) : 1
+3 3 3 1 2 1, 706 (1) : 1
+3 3 3 1 2 2, 707 (1) : 1
+3 3 3 1 2 3, 708 (1) : 1
+3 3 3 1 3 1, 709 (1) : 1
+3 3 3 1 3 2, 710 (1) : 1
+3 3 3 1 3 3, 711 (1) : 1
+3 3 3 2 1 1, 712 (1) : 1
+3 3 3 2 1 2, 713 (1) : 1
+3 3 3 2 1 3, 714 (1) : 1
+3 3 3 2 2 1, 715 (1) : 1
+3 3 3 2 2 2, 716 (1) : 1
+3 3 3 2 2 3, 717 (1) : 1
+3 3 3 2 3 1, 718 (1) : 1
+3 3 3 2 3 2, 719 (1) : 1
+3 3 3 2 3 3, 720 (1) : 1
+3 3 3 3 1 1, 721 (1) : 1
+3 3 3 3 1 2, 722 (1) : 1
+3 3 3 3 1 3, 723 (1) : 1
+3 3 3 3 2 1, 724 (1) : 1
+3 3 3 3 2 2, 725 (1) : 1
+3 3 3 3 2 3, 726 (1) : 1
+3 3 3 3 3 1, 727 (1) : 1
+3 3 3 3 3 2, 728 (1) : 1
+3 3 3 3 3 3, 729 (1) : 1

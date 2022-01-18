@@ -1,0 +1,48 @@
+[System]
+Name='ControladorMamdani_P1_sin_2'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=2
+NumRules=4
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='S_Izq'
+Range=[0 5]
+NumMFs=2
+MF1='PEQ':'trapmf',[0 0 0.65 1.85]
+MF2='GRD':'trapmf',[0.65 1.85 5 5]
+
+[Input2]
+Name='S_Der'
+Range=[0 5]
+NumMFs=2
+MF1='PEQ':'trapmf',[0 0 0.65 1.85]
+MF2='GRD':'trapmf',[0.65 1.85 5 5]
+
+[Output1]
+Name='V'
+Range=[0 1]
+NumMFs=3
+MF1='PEQ':'trapmf',[-1 -1 0.1 0.2]
+MF2='MED':'trimf',[0.1 0.5 0.9]
+MF3='GRD':'trapmf',[0.98 0.99 2.07 2.63]
+
+[Output2]
+Name='W'
+Range=[-1 1]
+NumMFs=3
+MF1='NEG':'trapmf',[-1 -1 -0.1 0]
+MF2='CERO':'trimf',[-0.1 0 0.1]
+MF3='POS':'trapmf',[0 0.1 1 1]
+
+[Rules]
+1 1, 0 2 (1) : 1
+1 2, 0 1 (1) : 1
+2 1, 0 3 (1) : 1
+2 2, 0 -2 (1) : 1
